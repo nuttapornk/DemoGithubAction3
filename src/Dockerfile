@@ -1,2 +1,2 @@
 FROM nginx:alpine
-COPY ./publish /usr/share/nginx/html
+COPY ./publish/ /usr/share/nginx/html
