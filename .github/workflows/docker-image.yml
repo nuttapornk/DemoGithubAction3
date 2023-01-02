@@ -2,6 +2,8 @@ name: Docker Image CI
 
 on:
   push:
+    paths:
+      - 'src/**'
     branches: [ "main","dev" ]
   pull_request:
     branches: [ "main","dev" ]
